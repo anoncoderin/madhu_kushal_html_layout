@@ -76,10 +76,6 @@
     font-size: 50px;
     text-align: center;
   }
-
-  .col tab-row-span {
-    text-align: center;
-  }
   
   .row{
     display: grid;
