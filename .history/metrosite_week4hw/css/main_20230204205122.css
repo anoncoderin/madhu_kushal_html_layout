@@ -257,46 +257,12 @@ h4{
   margin: 0 auto;
 }
 
-.alchemyicons {
+..alchemyicons {
   width: 82%;
   margin-top: 138%;
   margin-left: 6%;
-}
 
-.disapear {
-  display: none;
-}
-
-.marginnnss {
-  padding: 3rem;
-}
-
-.FirstBigText {
-  font-size: 28px;
-  text-align: center;
-}
-
-.ThingsWeDoPics {
-  width: 75%;
-  margin-left: 8%;
-  margin-top: 16%;
-}
-
-.phonecol {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  gap: 4%;
-}
-
-.ThingsWeDoText {
-  font-size: 111%;
-}
-
-.ThingsWeDoText1 {
-  font-size: 72%;
-}
-
-}
+  }
   /* Medium and up */
   @media screen and (min-width: 40em) {
     .rowss {

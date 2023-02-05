@@ -211,10 +211,6 @@ h4{
   grid-template-columns: 1fr 6fr;
 }
 
-.marginnnss {
-  padding: 0rem 9rem 3rem 9rem;
-}
-
 
 
 
@@ -239,64 +235,12 @@ h4{
 
 .sampleimg {
   width: 24%;
-  height: 40%;
-  margin-top: 14%;
+  height: 39%;
+  margin-top: 16%;
   margin-left: 3%;
 }
 
-.rowss {
-  display: grid;
-  max-width: 36rem;
-  column-gap: 1rem;
-  margin: 0 auto;
-}
-.row{
-  max-width: 36rem;
-  column-gap: 1.5rem;
-  row-gap: 1.5rem;
-  margin: 0 auto;
-}
-
-.alchemyicons {
-  width: 82%;
-  margin-top: 138%;
-  margin-left: 6%;
-}
-
-.disapear {
-  display: none;
-}
-
-.marginnnss {
-  padding: 3rem;
-}
-
-.FirstBigText {
-  font-size: 28px;
-  text-align: center;
-}
-
-.ThingsWeDoPics {
-  width: 75%;
-  margin-left: 8%;
-  margin-top: 16%;
-}
-
-.phonecol {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  gap: 4%;
-}
-
-.ThingsWeDoText {
-  font-size: 111%;
-}
-
-.ThingsWeDoText1 {
-  font-size: 72%;
-}
-
-}
+  }
   /* Medium and up */
   @media screen and (min-width: 40em) {
     .rowss {
