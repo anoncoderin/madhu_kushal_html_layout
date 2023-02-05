@@ -27,6 +27,15 @@
    * Customize the background color to match your design.
    */
 
+   div,
+   main,
+   section,
+   footer,
+   header {
+    outline: none;
+    min-height: 1rem;
+    padding: 1rem;
+  }
   
   ::-moz-selection {
     background: #b3d4fc;
@@ -171,11 +180,6 @@
 
 footer{
   background-color: #16242f;
-  padding: 6rem;
-}
-
-h4{
-  color: #999;
 }
 
 

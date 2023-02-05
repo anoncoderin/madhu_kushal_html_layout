@@ -171,11 +171,9 @@
 
 footer{
   background-color: #16242f;
-  padding: 6rem;
-}
-
-h4{
-  color: #999;
+  outline: none;
+    min-height: 1rem;
+    padding: 1rem;
 }
 
 

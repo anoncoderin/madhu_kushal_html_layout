@@ -26,7 +26,6 @@
    *
    * Customize the background color to match your design.
    */
-
   
   ::-moz-selection {
     background: #b3d4fc;
@@ -38,7 +37,15 @@
     text-shadow: none;
   }
   
- 
+  div,
+  main,
+  header,
+  section,
+  footer{
+    outline: 1px solid #ccc;
+    min-height: 1rem;
+    padding: 1rem;
+  }
   
   *,
   *:before,
@@ -116,69 +123,6 @@
   
 }
 
-.main-nav {
-  display: none;
-  flex-direction: column;
-  align-items: center;
-}
-
-.main-nav__item {
-  display: block;
-  position: relative;
-  font-size: 2rem;
-  text-decoration: none;
-  text-align: left;
-  width: 100%;
-  color: white;
-  line-height: 4rem;
-  background-repeat: no-repeat;
-  font-family: Ubuntu, sans-serif;
-  font-weight: 300;
-  text-align: center;
-}
-
-.main-nav__item::after {
-  content: ">";
-  display: inline-block;
-  position: absolute;
-  right: 1rem;
-}
-
-.main-nav__item::after::after {
-  content: "";
-}
-
-.main-nav__item:nth-child(1) {
-  background-color: #25c389;
-  background-image: url(assets\home_FILL0_wght400_GRAD0_opsz48.svg);
-}
-.main-nav__item:nth-child(2) {
-  background-color: #ffb901;
-  background-image: url(assets\pin_drop_FILL0_wght400_GRAD0_opsz48.svg), url();
-}
-.main-nav__item:nth-child(3) {
-  background-color: #de6262;
-  background-image: url(assets\campaign_FILL0_wght400_GRAD0_opsz48.svg), url();
-}
-.main-nav__item:nth-child(4) {
-  background-color: #1691bd;
-  background-image: url(assets\work_FILL0_wght400_GRAD0_opsz48.svg), url();
-}
-.main-nav__item:nth-child(5) {
-  background-color: #166ba2;
-  background-image: url(assets\mail_FILL0_wght400_GRAD0_opsz48.svg), url();
-}
-
-footer{
-  background-color: #16242f;
-  padding: 6rem;
-}
-
-h4{
-  color: #999;
-}
-
-
   
   /* Small only */
   @media screen and (max-width: 39.9375em) {
@@ -208,9 +152,6 @@ h4{
       grid-template-columns: 1fr 1fr;
   
     }
-    .m-col-2 {
-      grid-template-columns: 1fr 1fr;
-    }
     .tab-col-3{
       grid-template-columns: repeat(2, 1fr);
   
@@ -223,22 +164,6 @@ h4{
   .tab-row-span{
     grid-column-start: 1;
     grid-column-end: -1;
-  }
-
-  .main-nav {
-    display: flex;
-    flex-direction: row;
-  }
-  .main-nav__item {
-    padding: 4rem 1rem 0rem .5rem;
-    line-height: 2rem;
-    font-size: .8rem;
-    text-align: left;
-    background-color: rgb(184, 184, 184);
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
-    background-size: 2.3rem, 1.4rem;
   }
   
   }
@@ -256,7 +181,7 @@ h4{
       grid-column-start: 2;
       grid-column-end: 5;
     }
-    
+  
   }
   
   
@@ -264,15 +189,12 @@ h4{
   @media screen and (min-width: 64em) {
     .tab-col-2 {
       grid-template-columns: 1fr 1fr 1fr;
-    } 
-    .tab-col-3{
-      grid-template-columns: repeat(4, 1fr);
-      
-      
-    }
-    .l-col-4 {
-      grid-template-columns: repeat(4, 1fr);
-    }
+  } 
+  .tab-col-3{
+    grid-template-columns: repeat(4, 1fr);
+
+
+}
   }
   
   

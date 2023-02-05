@@ -26,7 +26,6 @@
    *
    * Customize the background color to match your design.
    */
-
   
   ::-moz-selection {
     background: #b3d4fc;
@@ -169,15 +168,6 @@
   background-image: url(assets\mail_FILL0_wght400_GRAD0_opsz48.svg), url();
 }
 
-footer{
-  background-color: #16242f;
-  padding: 6rem;
-}
-
-h4{
-  color: #999;
-}
-
 
   
   /* Small only */
@@ -207,9 +197,6 @@ h4{
     .tab-col-2{
       grid-template-columns: 1fr 1fr;
   
-    }
-    .m-col-2 {
-      grid-template-columns: 1fr 1fr;
     }
     .tab-col-3{
       grid-template-columns: repeat(2, 1fr);
@@ -256,7 +243,7 @@ h4{
       grid-column-start: 2;
       grid-column-end: 5;
     }
-    
+  
   }
   
   
@@ -264,15 +251,12 @@ h4{
   @media screen and (min-width: 64em) {
     .tab-col-2 {
       grid-template-columns: 1fr 1fr 1fr;
-    } 
-    .tab-col-3{
-      grid-template-columns: repeat(4, 1fr);
-      
-      
-    }
-    .l-col-4 {
-      grid-template-columns: repeat(4, 1fr);
-    }
+  } 
+  .tab-col-3{
+    grid-template-columns: repeat(4, 1fr);
+
+
+}
   }
   
   
