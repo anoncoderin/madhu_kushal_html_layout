@@ -218,8 +218,6 @@ h4{
 
 
 
-
-
   
   /* Small only */
   @media screen and (max-width: 39.9375em) {
@@ -411,7 +409,11 @@ h4{
       margin: 0 auto;
       margin-bottom: 3%;
     }
-    
+    .slider {
+      background-color: #f3f3f3;
+      margin-left: -10%;
+      margin-right: -10%;
+  }
   }
   
   
