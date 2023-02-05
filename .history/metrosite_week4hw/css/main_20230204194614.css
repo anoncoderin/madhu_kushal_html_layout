@@ -200,19 +200,6 @@ h4{
   border:1px solid #999;
 }
 
-.alchemyicons {
-  width: 82%;
-  margin-top: 26%;
-  margin-left: 6%;
-}
-
-.alchemytext {
-  display: grid;
-  grid-template-columns: 1fr 6fr;
-}
-
-
-
 
   
   /* Small only */
@@ -274,16 +261,6 @@ h4{
     background-position-x: center;
     background-position-y: center;
     background-size: 2.3rem, 1.4rem;
-  }
-
-  .table-switch {
-    display: grid;
-    grid-template-columns: 1fr;
-    max-width: 36rem;
-    column-gap: 1.5rem;
-    row-gap: 1.5rem;
-    margin: 0 auto;
-    margin-bottom: 3%;
   }
   
   }
