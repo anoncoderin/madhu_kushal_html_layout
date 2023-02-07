@@ -222,7 +222,7 @@ h4{
 .emailresp {
   display: grid; 
   grid-template-columns: 1fr 1fr; 
-  width: 57%;
+  width: 94%;
 }
 
 
@@ -394,7 +394,14 @@ h4{
       row-gap: 1.5rem;
       margin: 0 auto;
       margin-bottom: 3%;
-    }    
+    }
+
+    .emailresp {
+      display: grid; 
+      grid-template-columns: 1fr 1fr; 
+      width: 73%;
+    }
+    
   }
   
   

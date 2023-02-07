@@ -219,12 +219,6 @@ h4{
   padding: 0rem 9rem 0rem 9rem;
 }
 
-.emailresp {
-  display: grid; 
-  grid-template-columns: 1fr 1fr; 
-  width: 57%;
-}
-
 
 
 
@@ -369,6 +363,9 @@ h4{
     margin: 0 auto;
     margin-bottom: 3%;
   }
+
+  
+
   
   }
   /* Medium only */
@@ -394,7 +391,8 @@ h4{
       row-gap: 1.5rem;
       margin: 0 auto;
       margin-bottom: 3%;
-    }    
+    }
+    
   }
   
   
